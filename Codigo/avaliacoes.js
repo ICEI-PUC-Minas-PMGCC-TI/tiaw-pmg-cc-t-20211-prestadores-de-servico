@@ -60,5 +60,5 @@ function imprimeDados () {
 
 // Configura os botões
 
-//document.getElementById ('btnCarregarDados').addEventListener ("click", imprimeDados);
-//document.getElementById ('btnIncluirContato').addEventListener ("click", incluirContato);
+document.getElementById ('btnCarregarDados').addEventListener ("click", imprimeDados);
+document.getElementById ('btnIncluirContato').addEventListener ("click", incluirContato);
