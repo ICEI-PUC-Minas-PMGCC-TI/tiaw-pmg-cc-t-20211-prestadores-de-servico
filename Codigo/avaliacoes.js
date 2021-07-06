@@ -45,7 +45,7 @@ function imprimeDados () {
     let objDados = leDados ();
     for (i=0; i<objDados.avaliacao.length; i++){
 
-        strHtml += `<div class="card col-md-12">
+        strHtml += `<div class="card col-lg-3 col-md-6 col-sm-12">
         <h5 class="card-title">${objDados.avaliacao[i].avaliacao} ESTRELAS</h5>
             <div class="card-body">
                 <h5 class="card-title">${objDados.avaliacao[i].nome}</h5>
@@ -60,5 +60,5 @@ function imprimeDados () {
 
 // Configura os botões
 
-document.getElementById ('btnCarregarDados').addEventListener ("click", imprimeDados);
-document.getElementById ('btnIncluirContato').addEventListener ("click", incluirContato);
+//document.getElementById ('btnCarregarDados').addEventListener ("click", imprimeDados);
+//document.getElementById ('btnIncluirContato').addEventListener ("click", incluirContato);
