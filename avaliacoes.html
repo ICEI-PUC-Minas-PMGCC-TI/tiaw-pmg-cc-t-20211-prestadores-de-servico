@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contatos</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1b4761dc68.js" crossorigin="anonymous"></script>
+    <title>Login e Cadastro</title>
+    <link rel="shortcut icon" href="logoico.ico" type="image/x-icon" />
+    </head>
+    <body>
+
+        <!-- header inicio -->
+    <header>
+        <div class="container-fluid header">
+            <!-- logo - social -->
+            <div class="row header1">
+                <div class="col-sm-12 col-md-6 logo">
+                    <img src="imgs/logo.png" alt="logo">
+                </div>
+                <div class="d-none d-md-block col-md-6 social">
+                    <ul>
+                        <li class="facebook"><a href="https://pt-br.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square fa-2x" style="color: white;"></i>
+                            </a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-2x"
+                                    style="color: white;"></i></a></li>
+                        <li><a href="https://twitter.com/login?lang=pt" target="_blank"><i
+                                    class="fab fa-twitter-square fa-2x" style="color: white;"></i></a></li>
+                        <li><a href="https://br.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"
+                                    style="color: white;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nav - search -->
+            <div class="row header2">
+                <!-- menu nav inicio -->
+                <div class="d-none d-sm-block col-md-6 menu-nav">
+                    <nav class="nav nav-pills flex-column flex-sm-row header-nav">
+                        <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">HOME</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#">SOBRE</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="Login/login.html">USUÁRIO</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#">CONTATO</a>
+                    </nav>
+                </div>
+                <!-- menu nav fim -->
+
+                <!-- menu dropdown inicio -->
+                <div class="d-sm-none col-3 dropdown">
+                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton2" data-toggle="dropdown">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="index.html">HOME</a></li>
+
+                        <li><a class="dropdown-item" href="#">SOBRE</a></li>
+
+                        <li><a class="dropdown-item active" href="Login/login.html">USUÁRIO</a></li>
+
+                        <li><a class="dropdown-item" href="#">CONTATO</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 busca">
+                    <input id="pesquisa" placeholder="Search" type="text" />
+                </div>
+                <!-- menu dropdown fim -->
+            </div>
+        </div>
+    </header>
+    <!-- header fim -->
+        <div class="container col-12">
+            <div class="row">
+                <div col-6>
+                    <h1>Avaliações</h1>
+                <button type="button" class="btn btn-outline-secondary" id="btnCarregarDados">Carregar dados</button>
+                </div>
+                
+                
+                <div id="formContatos" col-6>
+                    <br><br><h6>Nome:</h6>
+                    <input type="text" id="campoNome"><br>
+                    <h6>Descricao:</h6>
+                    <input type="text" id="campoDescricao"><br>
+                    <h6>Avaliacao:</h6>
+                    <input type="text" id="campoAvaliacao"><br>
+                    <button type="button" class="btn btn-outline-secondary" id="btnIncluirContato">Cadastrar</button>
+                </div>
+            </div>
+            <div class="row" id="tela">
+
+        </div>
+        <footer class="container-fluid">
+            <div class="row footer">
+                <p>&copy Copyright 2021 - TIAW - Todos os Direitos Reservados</p>
+            </div>
+        </footer>
+
+        <script src="avaliacoes.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
